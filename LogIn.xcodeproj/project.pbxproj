@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4D063C268C72DF00A0ACD4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D063B268C72DF00A0ACD4 /* Account.swift */; };
+		2F4D063F268C8A2500A0ACD4 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D063E268C8A2500A0ACD4 /* AccountController.swift */; };
+		2F4D0641268C8E8A00A0ACD4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D0640268C8E8A00A0ACD4 /* LogInViewController.swift */; };
+		2F4D0643268DA17400A0ACD4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D0642268DA17300A0ACD4 /* RegisterViewController.swift */; };
+		2F4D0645268EE1A400A0ACD4 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D0644268EE1A400A0ACD4 /* ResponseModels.swift */; };
+		2F52FF8F2685E15200C958DE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52FF8E2685E15200C958DE /* HomePageViewController.swift */; };
+		2F52FF922689C54000C958DE /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52FF912689C54000C958DE /* GetStartedViewController.swift */; };
+		2FB0D3B1268A1A8100F52DBF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB0D3B0268A1A8100F52DBF /* FacebookLogin */; };
+		2FB0D3B5268B239F00F52DBF /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0D3B4268B239F00F52DBF /* ProfileTableViewController.swift */; };
 		2FB514292685D954000E7078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB514282685D954000E7078 /* AppDelegate.swift */; };
 		2FB5142B2685D954000E7078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB5142A2685D954000E7078 /* SceneDelegate.swift */; };
-		2FB5142D2685D954000E7078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB5142C2685D954000E7078 /* ViewController.swift */; };
 		2FB514302685D954000E7078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB5142E2685D954000E7078 /* Main.storyboard */; };
 		2FB514332685D954000E7078 /* LogIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FB514312685D954000E7078 /* LogIn.xcdatamodeld */; };
 		2FB514352685D957000E7078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB514342685D957000E7078 /* Assets.xcassets */; };
@@ -17,10 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F4D063B268C72DF00A0ACD4 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		2F4D063E268C8A2500A0ACD4 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		2F4D0640268C8E8A00A0ACD4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		2F4D0642268DA17300A0ACD4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2F4D0644268EE1A400A0ACD4 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		2F52FF8E2685E15200C958DE /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2F52FF912689C54000C958DE /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		2FB0D3B4268B239F00F52DBF /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		2FB514252685D954000E7078 /* LogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB514282685D954000E7078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FB5142A2685D954000E7078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FB5142C2685D954000E7078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FB5142F2685D954000E7078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FB514322685D954000E7078 /* LogIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogIn.xcdatamodel; sourceTree = "<group>"; };
 		2FB514342685D957000E7078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,12 +48,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB0D3B1268A1A8100F52DBF /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4D063A268C72C300A0ACD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F4D063B268C72DF00A0ACD4 /* Account.swift */,
+				2F4D0644268EE1A400A0ACD4 /* ResponseModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F4D063D268C89F500A0ACD4 /* Other Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F4D063E268C8A2500A0ACD4 /* AccountController.swift */,
+			);
+			path = "Other Controller";
+			sourceTree = "<group>";
+		};
+		2F52FF902685E15A00C958DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F52FF8E2685E15200C958DE /* HomePageViewController.swift */,
+				2F4D0640268C8E8A00A0ACD4 /* LogInViewController.swift */,
+				2F52FF912689C54000C958DE /* GetStartedViewController.swift */,
+				2F4D0642268DA17300A0ACD4 /* RegisterViewController.swift */,
+				2FB0D3B4268B239F00F52DBF /* ProfileTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		2FB5141C2685D954000E7078 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +105,9 @@
 			children = (
 				2FB514282685D954000E7078 /* AppDelegate.swift */,
 				2FB5142A2685D954000E7078 /* SceneDelegate.swift */,
-				2FB5142C2685D954000E7078 /* ViewController.swift */,
+				2F52FF902685E15A00C958DE /* View Controllers */,
+				2F4D063D268C89F500A0ACD4 /* Other Controller */,
+				2F4D063A268C72C300A0ACD4 /* Models */,
 				2FB5142E2685D954000E7078 /* Main.storyboard */,
 				2FB514342685D957000E7078 /* Assets.xcassets */,
 				2FB514362685D958000E7078 /* LaunchScreen.storyboard */,
@@ -86,6 +133,9 @@
 			dependencies = (
 			);
 			name = LogIn;
+			packageProductDependencies = (
+				2FB0D3B0268A1A8100F52DBF /* FacebookLogin */,
+			);
 			productName = LogIn;
 			productReference = 2FB514252685D954000E7078 /* LogIn.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 2FB5141C2685D954000E7078;
+			packageReferences = (
+				2FB0D3AF268A1A8100F52DBF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 2FB514262685D954000E7078 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB5142D2685D954000E7078 /* ViewController.swift in Sources */,
+				2F4D0645268EE1A400A0ACD4 /* ResponseModels.swift in Sources */,
+				2FB0D3B5268B239F00F52DBF /* ProfileTableViewController.swift in Sources */,
+				2F4D0643268DA17400A0ACD4 /* RegisterViewController.swift in Sources */,
+				2F52FF8F2685E15200C958DE /* HomePageViewController.swift in Sources */,
+				2F4D0641268C8E8A00A0ACD4 /* LogInViewController.swift in Sources */,
 				2FB514292685D954000E7078 /* AppDelegate.swift in Sources */,
+				2F4D063F268C8A2500A0ACD4 /* AccountController.swift in Sources */,
 				2FB5142B2685D954000E7078 /* SceneDelegate.swift in Sources */,
 				2FB514332685D954000E7078 /* LogIn.xcdatamodeld in Sources */,
+				2F52FF922689C54000C958DE /* GetStartedViewController.swift in Sources */,
+				2F4D063C268C72DF00A0ACD4 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +356,9 @@
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogIn/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = LogIn;
+				INFOPLIST_KEY_CFBundleName = LogIn;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,6 +387,9 @@
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogIn/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = LogIn;
+				INFOPLIST_KEY_CFBundleName = LogIn;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2FB0D3AF268A1A8100F52DBF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FB0D3B0268A1A8100F52DBF /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FB0D3AF268A1A8100F52DBF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2FB514312685D954000E7078 /* LogIn.xcdatamodeld */ = {
